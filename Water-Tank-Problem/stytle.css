@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.input-block {
+  background-color: yellow;
+}
+
+.output-block {
+  background-color: rgb(51, 159, 255);
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 14px;
+  text-align: center;
+}
